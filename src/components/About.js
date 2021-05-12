@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 import sanityClient from "../client.js";
 import './About.css';
-import { Button } from './Button';
 import { NavLink } from "react-router-dom";
 import BlockContent from "@sanity/block-content-to-react";
 
@@ -51,7 +50,7 @@ export default function About() {
                                 <div className='aboutpgimage'>
                                     <img
                                         src={about.aboutpgImage.asset.url}
-                                        alt="picture of me"
+                                        alt="of me"
                                     />
                                 </div>
                             </div>

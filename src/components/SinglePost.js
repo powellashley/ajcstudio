@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
-import { NavLink } from "react-router-dom";
 import sanityClient from "../client.js";
 import imageUrlBuilder from "@sanity/image-url";
 import BlockContent from "@sanity/block-content-to-react";
@@ -139,7 +138,7 @@ export default function SinglePost() {
                         <div className='mainimage-block'>
                             
                                 <img
-                                    src={singlePost.mainImage.asset.url} alt={singlePost.title}
+                                    src={urlFor(singlePost.mainImage).url()} alt={singlePost.title}
                                     className='full-w-image'
                                 />
 

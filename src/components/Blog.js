@@ -49,7 +49,7 @@ export default function Blog() {
                                     <li className='cards__item'>
                                         <div className='cards__item__link'>
                                             <figure className='cards__item__pic-wrap' data-category={blog.date}>
-                                                <img src={blog.mainImage.asset.url} alt="Blog Image"
+                                                <img src={blog.mainImage.asset.url} alt="Blog"
                                                 className='cards__item__img'/>
                                             </figure>
                                             <div className='cards__item__info'>

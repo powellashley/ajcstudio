@@ -56,7 +56,7 @@ export default function Portfolio() {
                             <li className='cards__item'>
                                             <Link to={"/Portfolio/" + portfolio.slug.current} key={portfolio.slug.current} className='cards__item__link'>
                                                 <figure className='cards__item__pic-wrap' data-category={portfolio.areaofFocus}>
-                                                    <img src={portfolio.mainImage.asset.url} alt="Main Portfolio Image"
+                                                    <img src={portfolio.mainImage.asset.url} alt="Main Portfolio"
                                                     className='cards__item__img'/>
                                                 </figure>
                                                 <div className='cards__item__info'>
