@@ -211,7 +211,7 @@ export default function Resume(){
 
                             <div className='button-options'>
 
-                                <NavLink to="/contact" className='btn'
+                                <NavLink to="/contact" className='btn--primary'
                                 >
                                 <br />
                                 <br />
@@ -220,7 +220,7 @@ export default function Resume(){
                                 Contact me {">"}
                                 </NavLink>
 
-                                <NavLink to="/portfolio" className='btn'
+                                <NavLink to="/portfolio" className='btn--primary'
                                 >
                                 <br />
                                 <br />

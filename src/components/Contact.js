@@ -75,7 +75,7 @@ export default function Contact() {
 
                     <div className='button-options'>
 
-                        <NavLink to="/resume" className='btn'
+                        <NavLink to="/resume" className='btn--primary'
                         >
                         <br />
                         <br />
@@ -84,7 +84,7 @@ export default function Contact() {
                         View my CV {">"}
                         </NavLink>
 
-                        <NavLink to="/portfolio" className='btn'
+                        <NavLink to="/portfolio" className='btn--primary'
                         >
                         <br />
                         <br />

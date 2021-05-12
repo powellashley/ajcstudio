@@ -132,7 +132,7 @@ export default function About() {
                         <div className='btncontainer'>
                             <div className='button-options'>
 
-                                <NavLink to="/resume" className='btn'
+                                <NavLink to="/resume" className='btn--primary'
                                 >
                                 <br />
                                 <br />
@@ -141,7 +141,7 @@ export default function About() {
                                 View my CV {">"}
                                 </NavLink>
 
-                                <NavLink to="/portfolio" className='btn'
+                                <NavLink to="/portfolio" className='btn--primary'
                                 >
                                 <br />
                                 <br />

@@ -1,5 +1,6 @@
-import React, {useState} from "react";
+import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
+import { useEffect } from "react/cjs/react.development";
 import { Button } from './Button';
 import './NavBar.css';
 
@@ -19,12 +20,17 @@ export default function NavBar() {
         }
     };
 
+    useEffect(() => {
+        showButton()
+    }, []);
+
     window.addEventListener('resize', showButton);
  
     return (
         <>
             <nav className='navbar'>
                 <div className='navbar-container'>
+                    {button && <Button buttonStyle='btn--outline'>
                     <NavLink
                         to="/"
                         exact
@@ -33,6 +39,7 @@ export default function NavBar() {
                         <span className="bodyfont">ashleyjames</span>
                         <span className="boldfont">creative</span>
                     </NavLink>
+                    </Button>}
                     <div className='menu-icon' onClick={handleClick}>
                         <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
                     </div>

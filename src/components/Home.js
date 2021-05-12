@@ -72,7 +72,7 @@ export default function Home() {
 
                                 <div className='button-options'>
 
-                                        <NavLink to="/resume" className='btn'
+                                        <NavLink to="/resume" className='btn--primary'
                                         >
                                         <br />
                                         <br />
@@ -81,7 +81,7 @@ export default function Home() {
                                         View my CV {">"}
                                         </NavLink>
 
-                                        <NavLink to="/portfolio" className='btn'
+                                        <NavLink to="/portfolio" className='btn--primary'
                                         >
                                         <br />
                                         <br />
