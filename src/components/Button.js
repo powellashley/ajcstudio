@@ -21,9 +21,9 @@ export const Button = ({
     : SIZES[0];
 
     return (
-        <NavLink to='' className='btn-mobile'>
+        <NavLink to='/home' className='btn-mobile'>
             <button 
-            className={'btn ${checkButtonStyle} ${checkButtonSize}'}
+            className={`btn ${checkButtonStyle} ${checkButtonSize}`}
             onClick={onClick}
             type={type}
             > 

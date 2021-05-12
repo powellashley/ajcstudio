@@ -38,7 +38,7 @@ export default function Contact() {
 
                     <img
                         src={contact.contactImage.asset.url}
-                        alt="Image of a building in Berlin"
+                        alt="building in Berlin"
                         className='contactpageimage'
                     />
 

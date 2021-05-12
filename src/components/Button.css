@@ -35,7 +35,7 @@
     background-color: transparent;
     color: #000000;
     padding: 8px 20px;
-    border: 1px solid #000000;
+    border: none;
     transition: all 0.3s ease-out;
 }
 
