@@ -123,6 +123,7 @@ export default function Resume(){
                                 </div>
 
                             </div>
+                            
                             <div className='cv-experience'>
 
                                 <div className='row'>
