@@ -11,8 +11,6 @@ import FooterBar from "./components/FooterBar";
 
 function App() {
   return (
-    <div className='page-container'>
-      <div className='content-wrap'>
         <BrowserRouter>
         <NavBar />
           <Switch>
@@ -24,10 +22,8 @@ function App() {
             <Route component={Resume} path='/resume' />
             <Route component={Contact} path='/contact' />
           </Switch>
-        </BrowserRouter>
-      </div>
       <FooterBar />
-    </div>
+      </BrowserRouter>
   )
 }
 
